@@ -1,5 +1,5 @@
 %define module   Parse-CPAN-Meta
-%define version    0.05
+%define version    1.38
 %define release    %mkrel 1
 
 Name:       perl-%{module}
