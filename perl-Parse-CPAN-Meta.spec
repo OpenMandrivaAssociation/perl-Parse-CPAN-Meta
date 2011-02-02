@@ -1,9 +1,9 @@
 %define upstream_name    Parse-CPAN-Meta
-%define upstream_version 1.40
+%define upstream_version 1.4200
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Parse META.yml and other similar CPAN metadata files
 License:    GPL+ or Artistic
@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Parse/%{upstream_name}-%{upstr
 
 BuildRequires: perl(File::Spec)
 BuildRequires: perl(Test::More)
+BuildRequires: perl-JSON-PP
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
