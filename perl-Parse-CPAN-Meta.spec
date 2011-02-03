@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Parse/%{upstream_name}-%{upstr
 
 BuildRequires: perl(File::Spec)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(CPAN::Meta::YAML)
 BuildRequires: perl-JSON-PP
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
