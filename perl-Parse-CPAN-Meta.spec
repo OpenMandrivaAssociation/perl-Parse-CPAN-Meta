@@ -1,15 +1,15 @@
 %define upstream_name    Parse-CPAN-Meta
-%define upstream_version 1.4404
+%define upstream_version 1.4405
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
+Version:	%perl_convert_version 1.4405
 Release:	1
 
 Summary:	Parse META.yml and other similar CPAN metadata files
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Parse/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Parse/Parse-CPAN-Meta-1.4405.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Spec)
@@ -94,4 +94,5 @@ make test
 
 * Fri Feb 20 2009 cpan2dist 0.04-1mdv
 - initial mdv release, generated with cpan2dist
+
 
