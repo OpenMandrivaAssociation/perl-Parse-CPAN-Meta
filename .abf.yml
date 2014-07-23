@@ -1,5 +1,6 @@
 removed_sources:
   Parse-CPAN-Meta-1.4404.tar.gz: b1633b80f65009aba7f7ed7966aa2715c27fc084
   Parse-CPAN-Meta-1.4405.tar.gz: 351d544d6d62593700b38dc2c3b3c8d870274b85
-sources:
   Parse-CPAN-Meta-1.4409.tar.gz: 40378a62c71c44656744051fa7a70071ab409bba
+sources:
+  Parse-CPAN-Meta-1.4414.tar.gz: a6499fe30e87cfcf71a0f77adb4083bbf4b0429e
